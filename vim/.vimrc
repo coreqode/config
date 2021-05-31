@@ -17,3 +17,4 @@ let NERDTreeQuitOnOpen = 1
 set ttymouse=xterm2
 set clipboard=unnamed
 set autochdir
+xnoremap <leader>c g0<C-v><S-i>
