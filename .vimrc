@@ -16,4 +16,4 @@ syntax on
 let NERDTreeQuitOnOpen = 1
 set ttymouse=xterm2
 set clipboard=unnamed
-
+set autochdir
