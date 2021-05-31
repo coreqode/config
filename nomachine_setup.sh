@@ -1,4 +1,8 @@
 sudo apt-get update
+
+wget https://download.nomachine.com/download/7.4/Linux/nomachine_7.4.1_1_amd64.deb
+sudo dpkg -i ./nomachine_7.4.1_1_amd64.deb
+
 # set passwordauthentication "yes"
 vim /etc/ssh/sshd_config
 
@@ -16,7 +20,5 @@ sudo usermod -aG sudo,adm nomachine
 
 sudo -i
 
-wget https://download.nomachine.com/download/7.4/Linux/nomachine_7.4.1_1_amd64.deb
-sudo dpkg -i ./nomachine_7.4.1_1_amd64.deb
 
 sudo reboot
